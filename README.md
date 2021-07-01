@@ -1,6 +1,6 @@
-# Offer-Complete
+# Offer-Complete with Starbucks data
 Predict offer completeness with Starbucks data
-Installation
+# Installation
 Libraries used are :
 -pandas as pd
 -numpy as np
@@ -70,7 +70,7 @@ value - (dict of strings) - either an offer id or transaction amount depending o
 # Acknowledgements:
 Thank you to Udacity for providing the simulated Starbucks data files
 
-Output Visuals :
+# Output Visuals :
 
 ![Offer-complete visuals](https://user-images.githubusercontent.com/85522420/124167533-f9ed7c80-da58-11eb-95d4-a3cb96303465.png)
 
