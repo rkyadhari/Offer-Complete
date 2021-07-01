@@ -11,7 +11,7 @@ Libraries used are :
 -pandas
 -sklearn
 
-Project Motivation :
+# Project Motivation :
 
 With the given datasets and background information provided, I am interested in exploring the following with the Starbucks dataset for this Capstone project: 
 • Predict the response to an offer - If the consumer will complete an offer or not?
@@ -23,7 +23,7 @@ We will use data wrangling techniques to clean the data,and perform necessary co
 We will use statistics and visualizations as needed to help us understand the 3 datasets profile,portfolio,and transcript better
 We will use 3 models Logistic Regression as the base model, Random Forest and Decision Tree classifiers as the additional models to predict if a particular offer will be completed by the customer or not.
 
-Project Descriptions :
+# Project Descriptions :
 • Loading and exploring the data - The datasets will be loaded, and some exploratory analysis will be performed in this stage such as reviewing the distribution of data, number, and type of features 
 - Dimensions of the dataset - Statistical summary of attributes
 - Data visualization with histograms on input variables to get idea on their distribution 
@@ -37,7 +37,7 @@ Project Descriptions :
   - We will perform model tuning to optimize the metrics we are interested in
   • Evaluating and comparing model test performance - We will measure the accuracy, precision, recall and F1-Score for both our models and suggest the better model for predicting an Offer to be completed
 
-Files Descriptions:
+# Files Descriptions:
 
 The data is contained in three files:
 
@@ -67,11 +67,16 @@ person (str) - customer id
 time (int) - time in hours since start of test. The data begins at time t=0
 value - (dict of strings) - either an offer id or transaction amount depending on the record
 
-Acknowledgements:
+# Acknowledgements:
 Thank you to Udacity for providing the simulated Starbucks data files
 
 Output Visuals :
 
+![Offer-complete visuals](https://user-images.githubusercontent.com/85522420/124167533-f9ed7c80-da58-11eb-95d4-a3cb96303465.png)
 
 
-Conclusion
+# Conclusion :
+Important features derived from modeling:
+![Model Importance](https://user-images.githubusercontent.com/85522420/124167577-04a81180-da59-11eb-8388-7bff20095ed2.png)
+
+Link to blog post : https://raja-kyadhari.medium.com/predicting-offer-completeness-on-starbucks-offers-4c60588c80fd
